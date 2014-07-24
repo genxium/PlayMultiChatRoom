@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy play resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/user/play-2.2.2/MultiChatRooms/public/images/favicon.png,/Users/user/play-2.2.2/MultiChatRooms/target/scala-2.10/classes/public/images/favicon.png)[0m
+[0m[[0mdebug[0m] [0m	(/Users/user/play-2.2.2/MultiChatRooms/public/javascripts/jquery-1.7.1.min.js,/Users/user/play-2.2.2/MultiChatRooms/target/scala-2.10/classes/public/javascripts/jquery-1.7.1.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/user/play-2.2.2/MultiChatRooms/public/stylesheets/bootstrap.css,/Users/user/play-2.2.2/MultiChatRooms/target/scala-2.10/classes/public/stylesheets/bootstrap.css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/user/play-2.2.2/MultiChatRooms/public/stylesheets/main.css,/Users/user/play-2.2.2/MultiChatRooms/target/scala-2.10/classes/public/stylesheets/main.css)[0m

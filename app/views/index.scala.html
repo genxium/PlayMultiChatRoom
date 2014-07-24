@@ -1,0 +1,21 @@
+
+@main(null) {
+    
+    @if(flash.containsKey("error")) {
+        
+        <div class="alert-message error">
+            <p>
+                <strong>Oops!</strong> @flash.get("error")
+            </p>
+        </div>
+        
+    }
+        
+    <div class="alert-message block-message info">
+        <p>
+            <strong>This is the Qoo chatroom sample application!</strong> 
+            在右上方隨便輸入一個用戶名登入吧！
+        </p>
+    </div>
+    
+}

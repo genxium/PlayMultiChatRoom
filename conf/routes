@@ -1,0 +1,12 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                controllers.Application.index()
+GET     /room                            controllers.Application.chatRoom(roomId: Integer ?=null, username: String ?= null)
+GET     /room/join                       controllers.Application.join(roomId: Integer ?=null, username: String ?= null)
+GET     /assets/javascripts/chatroom.js  controllers.Application.chatRoomJs(roomId: Integer ?=null, username: String ?= null)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file                    controllers.Assets.at(path="/public", file)
