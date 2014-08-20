@@ -76,7 +76,10 @@ public class Application extends Controller {
             rm.tell(new ChatRoom.Quit(username), null);
         }
         final ActorRef room = s_rooms.get(roomId);
-        String result = (String) Await.result(ask(room, new ChatRoom.Join(username, out), 1000), Duration.create(1, SECONDS));
+        String result = (String) Await.result(
+						ask(room, new ChatRoom.Join(username, out), 1000), 
+						Duration.create(1, SECONDS)
+			);
 
         if("OK".equals(result)) {
 
