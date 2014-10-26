@@ -27,8 +27,9 @@ $(function() {
         }
     });
 
-    var WS = window['MozWebSocket'] ? MozWebSocket : WebSocket
-    var chatSocket = new WS("@routes.Application.join(roomId, username).webSocketURL(request)")
+    var WS = window['MozWebSocket'] ? MozWebSocket : WebSocket;
+    var host = window.location.host;
+    var chatSocket = new WS("ws://" + host + "/room/join?roomId=@roomId&username=@username");
 
     var sendMessage = function() {
         chatSocket.send(JSON.stringify(
