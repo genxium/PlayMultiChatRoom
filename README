@@ -1,4 +1,4 @@
-This is your new Play application
-=====================================
+A Chat room built using WebSockets. Additionally there is a bot used speaking on the same chat room. It demonstrates:
 
-This file will be packaged with your application, when using `play dist`.
+- WebSocket connections.
+- Advanced usage of Akka.
